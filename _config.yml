@@ -1,8 +1,8 @@
-title: MUSA 550
+title: Heat Island Exploration in Philadelphia
 logo: /assets/img/logo.jpg
-description: Heat Island Exploration in Philly
-show_downloads: false
-repository: MUSA-550-Fall-2021/final-project-hui_shimin
+description: It is a MUSA500 final project done by Hui Tian and Shimin Tu. Where are the heat islands in Philadelphia, and what's the correlationship between land surface temperature and land cover? It seems that places with less green space are hotter, but let's use evidence to tell the truth. Do social conditions have any relationship with land surface temperature? We are also talking about environmental injustice about heat islands problem.
+show_downloads: True
+repository: https://github.com/MUSA-550-Fall-2021/final-project-hui_shimin
 google_analytics:
 remote_theme: pages-themes/minimal
 plugins:
