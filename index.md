@@ -34,6 +34,8 @@ Land surface temperature maybe also correlated to socieconomic conditions of cen
 
 ## Social conditions in Philadelphia
 
+Land surface temperature maybe also correlated to socieconomic conditions of census tracts, which introduces a problem about **Environmental justice**.
+
 <div id="hv-chart-2"></div>
 
 [explaination]. 
