@@ -12,7 +12,9 @@ Heat islands are urbanized areas that experience higher temperatures than outlyi
 
 Multiple studies of urban heat island indicate green space can mitigate urban heat island effect by creating cooling buffer zones, but little research conducted a quantitative analysis of the mitigating effect of converting vacant lands to green spaces. Thus, we examined the potential of converting paved areas and bare earth in vacant lands to green space and predict the mitigation effect with machine learning technology in this study. We also talked about the relationship between heat islands and socioeconomic conditions.
 
-## Land Surface Temperature and Land Cover
+## How land cover make a difference 
+
+### Land Surface Temperature VS. Land cover
 
 We calcultaed land surface temperature of Philadelphia on August 26th in this year from Landsat Satellite Image, also imported the land cover data of philadelphia. The map of LST on the top shows the land surface temperature of Philadelphia, with range between 11°C and 35°C. The map on the bottom present land cover types across the city, with most tree canopies clustered in Pennypack Park, Wissahickon Valley Park, and Fairmount Park. Most land cover of other paved surfaces are industrial zones in the South Philadelphia West. 
 
@@ -20,13 +22,15 @@ We calcultaed land surface temperature of Philadelphia on August 26th in this ye
 
 ![alt-text]({{ site.url }}{{ site.baseurl }}/assets/img/LC.png)
 
+### Heat Islands in Philadelphia
+
 Census tracts whose temperature is higher than 26 degree centigrade are recognized as heat islands. Roads, bared earth and other paved surfaces of vacant lands in heat islands will be converted to tree canopy to see whether it can lead to a great difference. 
 
-The census tracts with read boarder in the map are heat islands, under the context of land cover map, we found that urban heat islands always appear in areas with high density of buildings and low coverage of tree canopies. Also have a look to check whether you live in a heat island!
+The census tracts with red boarder in the map are heat islands, under the context of land cover map, we found that urban heat islands always appear in areas with high density of buildings and low coverage of tree canopies. Also have a look to check whether you live in a heat island!
 
 ![alt-text]({{ site.url }}{{ site.baseurl }}/assets/img/HI.png)
 
-## Convert vacant lands to tree canopy
+### Convert vacant lands to tree canopy
 
 We did a Random Forest regression to explore the relationship between surface temperature and **land cover**. Based on the model, we convert roads, bare earth and other paved surfaces of vacant lands in heat islands to tree canopy with a specific conversion rate. You can see the change of temperature distribution by choosing 0%, 50% or 100% three level of conversion rate.
 
@@ -34,7 +38,9 @@ We did a Random Forest regression to explore the relationship between surface te
 
 Found nothing changed? It's so bad but i have to say that's the truth. In this project, even though we convert all vacant roads, bare earth and othering paved surfaces in heat islands, the land surface temperature of heat island won't have a visible decrease. In a conclusion, it's useless to only change the land cover type in vacant lands. In the urban planning, some of paved surfaces which have a function now should be converted to green space.
 
-## Socioeconomic conditions of census tracts in Philadelphia
+## Do rich and white people live in cooler places?
+
+### Socioeconomic conditions of census tracts
 
 Land surface temperature maybe also correlated to socieconomic conditions of census tracts, which introduces a problem about **Environmental justice**. Below are multiple maps of Socioeconomic conditions of census tracts. Those tracts with abnormal values are removed.
 
@@ -42,11 +48,11 @@ Land surface temperature maybe also correlated to socieconomic conditions of cen
 
 It seems that the sptial distribution type of proportion of white and median household income are similar, as well as spatial distribution type of percent of vacant house and percent of people under poverty are similar. The latter two are also similar to the median temperature distribution type. It shows that in the census tracts where have higher proportion of vacant house and higher percent of poverty people are cooler. The results are not consistent with our cognition and the conclusions of many literature researches. However, that's what happened in Philadelphia.
 
-## Relationship between socioeconomic conditions and land cover.
+### Relationship between socioeconomic conditions and land cover.
 
 Below is a scatter plot of between social conditions and land cover. You can change varibales of x-axis and y-axis, and explore the relationship between them. The color represents value of land surface temperature. The deeper the color, the higher the temperature. There is no apparent relationship between landcover types and socioeconomic conditions.
 
 <div id="hv-chart-3"></div>
 
 
-## Results
+## Conclusion
