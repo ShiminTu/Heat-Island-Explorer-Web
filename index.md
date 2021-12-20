@@ -18,7 +18,7 @@ For examples of how to use markdown to style text, see this [this page](./anothe
 
 Below is a comparison chart of land surface temperature and land cover.
 
-<img src="/assets/img/logo.jpg" alt="hi" class="inline"/>
+![alt-text]({{ site.url }}{{ site.baseurl }}/assets/img/log.jpg
 
 [explaination]. 
 
