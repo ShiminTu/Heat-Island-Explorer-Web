@@ -4,61 +4,47 @@ altair-loader:
   altair-chart-1: "charts/measlesAltair.json"
 hv-loader:
   hv-chart-1: ["charts/conversion_map.html", "500"] 
-  hv-chart-2: ["charts/social_conditions.html", "500"] # second argument is the desired height
+  hv-chart-2: ["charts/social_conditions.html", "700"] # second argument is the desired height
   hv-chart-3: ["charts/interact_dashboard.html", "700"] # second argument is the desired height
 ---
 
-# Welcome!
+# Introduction!
 
-This single-page website demos how to display visualizations created with altair, hvplot, and folium.
+【This single-page website demos how to display visualizations created with altair, hvplot, and folium.
 
 For examples of how to use markdown to style text, see this [this page](./another-page.html).
 
-# Example: Embedding Altair & Hvplot Charts
+## Land Surface Temperature and Land Cover
 
-This section will show examples of embedding interactive charts produced using [Altair](https://altair-viz.github.io) and [Hvplot](https://hvplot.pyviz.org/).
+Below is a comparison chart of land surface temperature and land cover.
 
-## Altair Example
+<img src="/assets/img/logo.jpg" alt="hi" class="inline"/>
 
-Below is a chart of the incidence of measles since 1928 for the 50 US states.
+[explaination]. 
 
-<div id="altair-chart-1"></div>
+## Convert vacant lands to tree canopy
 
-This was produced using Altair and embedded in this static web page. Note that you can also display Python code on this page:
-
-```python
-import altair as alt
-alt.renderers.enable('notebook')
-```
-
-## HvPlot Example
-
-Lastly, the measles incidence produced using the HvPlot package:
+We can convert roads, bare earth and other paved areas to canopy. 
 
 <div id="hv-chart-1"></div>
 
-## Notes
+[explaination]. 
 
-- See the [lecture 13A slides](https://musa-550-fall-2021.github.io/slideslecture-13A.html) for the code that produced these plots.
+Land surface temperature maybe also correlated to socieconomic conditions of census tracts, which introduces a problem about **Environmental justice**.
 
-**Important: When embedding charts, you will likely need to adjust the width/height of the charts before embedding them in the page so they fit nicely when embedded.**
-
-# Example: Embedding Folium charts
-
-This post will show examples of embedding interactive maps produced using [Folium](https://github.com/python-visualization/folium).
-
-## OSMnx and Street Networks
-
-The shortest route between the Art Museum and the Liberty Bell:
+## Social conditions in Philadelphia
 
 <div id="hv-chart-2"></div>
 
+[explaination]. 
+
 <br/>
 
-## Percentage of Households without Internet
+## Relationship between social conditions and land cover.
 
-The percentage of households without internet by county:
+Below is a scatter plot of ...
 
 <div id="hv-chart-3"></div>
 
-See the [lecture 9B slides](https://musa-550-fall-2021.github.io/slides/lecture-9B.html) and the [lecture 10A slides](https://musa-550-fall-2021.github.io/slides/lecture-10A.html) for the code that produced these plots.
+
+# conclusion
