@@ -6,7 +6,7 @@ hv-loader:
   hv-chart-3: ["charts/interact_dashboard.html", "500"] # second argument is the desired height
 ---
 
-# test.Introduction
+# latestIntroduction
 
 [explaination]
 
@@ -14,7 +14,9 @@ hv-loader:
 
 Below is a comparison chart of land surface temperature and land cover.
 
-![alt-text]({{ site.url }}{{ site.baseurl }}/assets/img/LC_LST.png)
+![alt-text]({{ site.url }}{{ site.baseurl }}/assets/img/LST.png)
+
+![alt-text]({{ site.url }}{{ site.baseurl }}/assets/img/LC.png)
 
 ![alt-text]({{ site.url }}{{ site.baseurl }}/assets/img/HI.png)
 
