@@ -6,9 +6,11 @@ hv-loader:
   hv-chart-3: ["charts/interact_dashboard.html", "500"] # second argument is the desired height
 ---
 
-# latestIntroduction
+## What are heat islands
 
-[explaination]
+Heat islands are urbanized areas that experience higher temperatures than outlying areas. It usually occurs when natural land cover is replaced with dense concentrations of pavement, buildings, and other surfaces that absorb and retain heat. Urban heat island effect increases energy costs, air pollution levels, and heat-related illness and mortality. It is a challenging urban problem not only impact sustainability and human health, but also reflects social, racial, and economic inequalities associated with disproportionate green spaces in cities.
+
+Multiple studies of urban heat island indicate green space can mitigate urban heat island effect by creating cooling buffer zones, but little research conducted a quantitative analysis of the mitigating effect of converting vacant lands to green spaces. Thus, we examined the potential of converting paved areas and bare earth in vacant lands to green space and predict the mitigation effect with machine learning technology in this study. We also talked about the relationship between heat islands and socioeconomic conditions.
 
 ## Land Surface Temperature and Land Cover
 
