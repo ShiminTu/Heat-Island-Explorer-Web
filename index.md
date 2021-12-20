@@ -6,13 +6,13 @@ hv-loader:
   hv-chart-3: ["charts/interact_dashboard.html", "500"] # second argument is the desired height
 ---
 
-## What is heat island ?
+## What is heat island?
 
 Heat islands are urbanized areas that experience higher temperatures than outlying areas. It usually occurs when natural land cover is replaced with dense concentrations of pavement, buildings, and other surfaces that absorb and retain heat. Urban heat island effect increases energy costs, air pollution levels, and heat-related illness and mortality. It is a challenging urban problem not only impact sustainability and human health, but also reflects social, racial, and economic inequalities associated with disproportionate green spaces in cities.
 
 Multiple studies of urban heat island indicate green space can mitigate urban heat island effect by creating cooling buffer zones, but little research conducted a quantitative analysis of the mitigating effect of converting vacant lands to green spaces. Thus, we examined the potential of converting paved areas and bare earth in vacant lands to green space and predict the mitigation effect with machine learning technology in this study. We also talked about the relationship between heat islands and socioeconomic conditions.
 
-## How land cover make a difference 
+## How land cover make a difference?
 
 ### Land Surface Temperature VS. Land cover
 
@@ -56,3 +56,5 @@ Below is a scatter plot of between social conditions and land cover. You can cha
 
 
 ## Conclusion
+
+By analysing the satellite image, we found heat islands in Philadelphia. We also tried to convert vacant roads, bare earth and other paved surfaces to green space, in order to tackle the problem of Heat Island Effect problem. However, it seems that it is not an efficient way, since the temperature change is nearly invisible, which means some paved surfaces which have functions now should also be converted to green space to reduce high island effect. Besides, based on results of our regression models, there is also no significant relationship between land surface temperature and socioeconomic conditions. In the further research, we are going to expand our research area. The reseach object will not the Philadelphia but the whole America, which can make our study more comprehensive and our results more significant. In addition, to improve the model between land cover and median surface temperature, we will consider using mean temperature of each type of land cover as dependent variable to respond to variable of different types of land cover with other types of models.
