@@ -14,7 +14,7 @@ hv-loader:
 
 Below is a comparison chart of land surface temperature and land cover.
 
-![alt-text]({{ site.url }}{{ site.baseurl }}/assets/img/test.png)
+![alt-text]({{ site.url }}{{ site.baseurl }}/assets/img/LC_LST.png)
 
 ![alt-text]({{ site.url }}{{ site.baseurl }}/assets/img/HI.png)
 
