@@ -2,7 +2,7 @@
 layout: default
 hv-loader:
   hv-chart-1: ["charts/conversion_map.html", "500"] 
-  hv-chart-2: ["charts/social_conditions.html", "300"] # second argument is the desired height
+  hv-chart-2: ["charts/social_conditions.html", "600"] # second argument is the desired height
   hv-chart-3: ["charts/interact_dashboard.html", "500"] # second argument is the desired height
 ---
 
