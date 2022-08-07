@@ -1,6 +1,6 @@
 # Heat Island Explore Web
 
-## Member: 
+## Member
 Hui Tian, Shimin Tu 
 
 ## Project Theme
@@ -24,3 +24,7 @@ shrub/ lawn cover.
 potential to become green space.
 - Create charts of positive effects at different conversion rates in an interactive map.
 
+## Output
+1. [code](https://github.com/ShiminTu/Heat-Island-Explorer-Web/blob/main/HeatIslandExplore.ipynb)
+2. [explanatory documentation ](https://github.com/ShiminTu/Heat-Island-Explorer-Web/blob/main/Vacant_lands_Reduce_Heatisland_Effect.docx)
+3. [interative web]()
